@@ -32,4 +32,6 @@
 
 It is open source and you are free to edit it however you'd like!
 
+Join my FiveM Development discord -> [Moe Development](https://discord.gg/MBrU2TZnKc)
+
 (I'm not offering support for the script)
