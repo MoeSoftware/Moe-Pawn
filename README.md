@@ -25,6 +25,8 @@
 * Set a minimum and maximum price, the price changes every 30 minutes
 * All of this can be done only from the config file!
 
+# Showcase Video:
+
 https://www.youtube.com/watch?v=EkhH2Y5OwQc
 
 ## Can I use it on my server??
