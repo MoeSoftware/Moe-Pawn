@@ -121,7 +121,6 @@ RegisterNetEvent("trust-pawn:client:openInput", function(data)
             if not sellingItem.amount then
                 return
             end
-    
             if tonumber(sellingItem.amount) > 0 then
                 TriggerServerEvent('trust-pawn:server:sellItems', data.item.name, sellingItem.amount, data.price)
             else

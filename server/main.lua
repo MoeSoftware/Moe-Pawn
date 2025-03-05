@@ -13,7 +13,9 @@ RegisterNetEvent("trust-pawn:server:sellItems", function(item, amount, price)
     if Player.Functions.RemoveItem(item, amount) then
         TriggerClientEvent('QBCore:Notify', src, 'Congratulations, you sold ' .. amount .. " " .. item .. " for " .. price * amount,'success')
         TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[item], 'remove', amount)
+        Player.Functions.AddMoney("cash", price * amount)
     else
         TriggerClientEvent('QBCore:Notify', src, "You don't have " .. amount .. " of " .. item,'error')
     end
+
 end)
